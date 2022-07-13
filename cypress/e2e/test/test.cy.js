@@ -38,7 +38,7 @@ it('Using get with find and eq', () => {
 beforeEach(() => {
     cy.viewport(1920,1080)
 })
-it.only('Using get with find and eq', () => {
+it('Using get with find and eq', () => {
     cy.visit("https://docs.cypress.io/api/commands/eq#Syntax")
     cy.get('main').find('div.hidden').find('nav').find('ul').find('li').find('a').eq(0)
 })
